@@ -178,3 +178,23 @@ input {
     color: $state-danger-text;
   }
 }
+
+/* Custom User Styles (AB) */
+
+.users-container {
+  display: flex;
+  border: 1px solid lightgrey;
+}
+
+.user-box {
+  border: 1px solid lightgrey;
+  box-shadow: 2px 2px gray;
+  margin: 10px;
+  p {
+    margin: 5px;
+  }
+}
+
+.line{
+  border-bottom: 1px solid black;
+  }
